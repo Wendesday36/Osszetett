@@ -17,4 +17,5 @@ class BasketController extends Controller
         return Basket:: find($id)->delete();
        // return redirect('/book/list');
     }
+   
 }
